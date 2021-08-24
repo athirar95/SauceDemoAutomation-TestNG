@@ -1,0 +1,9 @@
+<suite name ="Sauce Demo App Test Automation Suite" verbose="5" parallel="false" preserve-order="true" thread-count="1">
+<test name="Sauce Demo App Test Automation Suite" >
+<classes>
+<class name="com.sauce.qa.testcases.LoginPageTest"></class>
+<class name="com.sauce.qa.testcases.ProductListPageTest"></class>
+<class name="com.sauce.qa.testcases.ProductDescriptionPageTest"></class>
+</classes>
+</test>
+</suite>
