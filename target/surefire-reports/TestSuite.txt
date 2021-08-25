@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 22.912 sec <<< FAILURE! - in TestSuite
+setUp(com.sauce.qa.testcases.ProductDescriptionPageTest)  Time elapsed: 5.35 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sauce.qa.testcases.ProductDescriptionPageTest.setUp(ProductDescriptionPageTest.java:31)
+

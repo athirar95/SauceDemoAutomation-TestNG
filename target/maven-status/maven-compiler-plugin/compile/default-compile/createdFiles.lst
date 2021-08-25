@@ -1,0 +1,8 @@
+com\sauce\qa\pages\ProductListPage.class
+com\sauce\qa\util\TestUtil.class
+com\sauce\qa\pages\YourCartPage.class
+com\sauce\qa\pages\ProductDesciptionPage.class
+com\sauce\qa\pages\AboutPage.class
+com\sauce\qa\base\TestBase.class
+com\sauce\qa\pages\CheckoutPage.class
+com\sauce\qa\pages\LoginPage.class

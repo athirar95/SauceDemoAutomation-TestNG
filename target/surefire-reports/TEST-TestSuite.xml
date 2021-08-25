@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="22.912" tests="18" errors="0" skipped="7" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_301\bin"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Athira Ramachandran\.jenkins\workspace\SauceDemo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Athira Ramachandran\.jenkins\workspace\SauceDemo"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_301\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ATHIRA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Maven\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;."/>
+    <property name="maven.conf" value="C:\Maven\apache-maven-3.8.2-bin\apache-maven-3.8.2/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Athira Ramachandran"/>
+    <property name="user.timezone" value="Asia/Muscat"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Athira Ramachandran"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.8.2-bin\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_301"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\Athira Ramachandran\eclipse-workspace\SauceDemo\pom.xml clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_301\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_301\lib\resources.jar;C:\Program Files\Java\jre1.8.0_301\lib\rt.jar;C:\Program Files\Java\jre1.8.0_301\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_301\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_301\lib\jce.jar;C:\Program Files\Java\jre1.8.0_301\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_301\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_301\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.8.2-bin\apache-maven-3.8.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="imageTest" classname="com.sauce.qa.testcases.LoginPageTest" time="0.061"/>
+  <testcase name="loginPageTitleTest" classname="com.sauce.qa.testcases.LoginPageTest" time="0.006"/>
+  <testcase name="loginTest" classname="com.sauce.qa.testcases.LoginPageTest" time="3.254"/>
+  <testcase name="setUp" classname="com.sauce.qa.testcases.ProductDescriptionPageTest" time="5.35">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.sauce.qa.testcases.ProductDescriptionPageTest.setUp(ProductDescriptionPageTest.java:31)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32479
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 25, 2021 8:12:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateImageDisplayedTest" classname="com.sauce.qa.testcases.ProductDescriptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyProductListTitleTest" classname="com.sauce.qa.testcases.ProductListPageTest" time="0.006"/>
+  <testcase name="validateProductTitleTest" classname="com.sauce.qa.testcases.ProductDescriptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyFilterOptionsTest" classname="com.sauce.qa.testcases.ProductListPageTest" time="0.153"/>
+  <testcase name="validateAddToCartTest" classname="com.sauce.qa.testcases.ProductDescriptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateSortingTest" classname="com.sauce.qa.testcases.ProductListPageTest" time="0.252"/>
+  <testcase name="removeFromCartTest" classname="com.sauce.qa.testcases.ProductDescriptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="addToCartTest" classname="com.sauce.qa.testcases.ProductListPageTest" time="0.201"/>
+  <testcase name="validateBackToProductsTest" classname="com.sauce.qa.testcases.ProductDescriptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="removeFromCart" classname="com.sauce.qa.testcases.ProductListPageTest" time="2.1"/>
+  <testcase name="validateYourCartTest" classname="com.sauce.qa.testcases.ProductDescriptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.sauce.qa.testcases.ProductDescriptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateMenuOptionsTest" classname="com.sauce.qa.testcases.ProductListPageTest" time="5.508"/>
+  <testcase name="selectAProduct" classname="com.sauce.qa.testcases.ProductListPageTest" time="5.152"/>
+</testsuite>
