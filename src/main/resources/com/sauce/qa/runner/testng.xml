@@ -10,7 +10,16 @@
 <test name="Sauce Demo App Test Automation Suite1" >
 <classes>
 <class name="com.sauce.qa.testcases.ProductDescriptionPageTest"></class>
+
 </classes>
 </test>
+<test name="Sauce Demo App Test Automation Suite2" >
+<classes>
+<class name="com.sauce.qa.testcases.YourCartPageTest"></class>
+
+</classes>
+</test>
+
+
 
 </suite>

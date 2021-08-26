@@ -113,7 +113,13 @@ public class ProductListPage extends TestBase {
 	}
 
 	public YourCartPage validateCartPage() {
-		addToCart.click();
+		List<String> prods=validateAddToCart();
+		for (int i = 0; i < prods.size(); i++) {
+			String sp = prods.get(i);
+
+			driver.findElement(By.xpath("//button[contains(@name,'" + sp + "')]")).click();
+		}
+		cart.click();
 		return new YourCartPage();
 	}
 
