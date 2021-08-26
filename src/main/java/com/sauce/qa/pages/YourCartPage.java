@@ -79,7 +79,7 @@ public class YourCartPage extends TestBase {
 			}
 		}
 		for (int i = 0; i < remProd.size(); i++) {
-			String sp = remProd.get(i);
+			String sp = remProd.get(i).trim();
 
 			driver.findElement(By.xpath("//button[contains(@name,'remove-" + sp + "')]")).click();
 		}
