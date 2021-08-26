@@ -7,9 +7,8 @@
         <methods>
           <include name="selectAProduct"/>
           <include name="tearDown"/>
-          <include name="addToCartTest"/>
           <include name="setUp"/>
-          <include name="removeFromCart"/>
+          <include name="validateMenuOptionsTest"/>
         </methods>
       </class> <!-- com.sauce.qa.testcases.ProductListPageTest -->
     </classes>
