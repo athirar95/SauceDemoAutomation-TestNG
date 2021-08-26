@@ -81,7 +81,7 @@ public class YourCartPage extends TestBase {
 		for (int i = 0; i < remProd.size(); i++) {
 			String sp = remProd.get(i);
 
-			driver.findElement(By.xpath("//button[contains(@name,'" + sp + "')]")).click();
+			driver.findElement(By.xpath("//button[contains(@name,'remove-" + sp + "')]")).click();
 		}
 
 		Integer safter = validateCartSize();
