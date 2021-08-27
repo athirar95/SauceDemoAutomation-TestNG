@@ -38,8 +38,7 @@
 				<configuration>
 					<forkCount>0</forkCount>
 					<suiteXmlFiles>
-						<suiteXmlFile>C:\Users\Athira
-							Ramachandran\eclipse-workspace\SauceDemo\src\main\resources\com\sauce\qa\runner\testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -1,3 +1,4 @@
+com\sauce\qa\testcases\CheckOutOverviewPageTest.class
 com\sauce\qa\testcases\CheckOutInfoPageTest.class
 com\sauce\qa\testcases\LoginPageTest.class
 com\sauce\qa\testcases\YourCartPageTest.class
