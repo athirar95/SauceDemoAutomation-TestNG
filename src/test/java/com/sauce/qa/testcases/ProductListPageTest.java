@@ -3,6 +3,7 @@ package com.sauce.qa.testcases;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -14,7 +15,8 @@ import com.sauce.qa.pages.ProductDesciptionPage;
 import com.sauce.qa.pages.ProductListPage;
 
 public class ProductListPageTest extends TestBase {
-
+	
+	Logger log= Logger.getLogger(ProductListPageTest.class);
 	LoginPage loginPage;
 	ProductListPage productList;
 	ProductDesciptionPage productDesc;
@@ -28,6 +30,7 @@ public class ProductListPageTest extends TestBase {
 		initialization();
 		loginPage = new LoginPage();
 		productList = new ProductListPage();
+		log.info("starting");
 
 		productList = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 
