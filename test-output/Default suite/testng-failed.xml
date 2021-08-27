@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sauce.qa.testcases.YourCartPageTest">
+      <class name="com.sauce.qa.testcases.CheckOutOverviewPageTest">
         <methods>
-          <include name="validateRemoveProductTest"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateTotalCostTest"/>
         </methods>
-      </class> <!-- com.sauce.qa.testcases.YourCartPageTest -->
+      </class> <!-- com.sauce.qa.testcases.CheckOutOverviewPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

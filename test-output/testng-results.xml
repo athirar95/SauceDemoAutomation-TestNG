@@ -1,49 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="28" passed="28">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22920" started-at="2021-08-27T14:47:44Z" finished-at="2021-08-27T14:48:06Z">
+  <suite name="Sauce Demo App Test Automation Suite" duration-ms="80138" started-at="2021-08-27T18:28:56Z" finished-at="2021-08-27T18:30:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22920" started-at="2021-08-27T14:47:44Z" finished-at="2021-08-27T14:48:06Z">
-      <class name="com.sauce.qa.testcases.ProductListPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="setUp" is-config="true" duration-ms="4194" started-at="2021-08-27T18:47:44Z" finished-at="2021-08-27T18:47:48Z">
+    <test name="Sauce Demo App Test Automation Suite" duration-ms="29428" started-at="2021-08-27T18:28:56Z" finished-at="2021-08-27T18:29:26Z">
+      <class name="com.sauce.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.LoginPageTest@3108bc]" name="setUp" is-config="true" duration-ms="2004" started-at="2021-08-27T22:28:56Z" finished-at="2021-08-27T22:28:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyProductListTitleTest()[pri:1, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="verifyProductListTitleTest" duration-ms="37" started-at="2021-08-27T18:47:48Z" finished-at="2021-08-27T18:47:48Z">
+        <test-method status="PASS" signature="imageTest()[pri:0, instance:com.sauce.qa.testcases.LoginPageTest@3108bc]" name="imageTest" duration-ms="57" started-at="2021-08-27T22:28:58Z" finished-at="2021-08-27T22:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.sauce.qa.testcases.LoginPageTest@3108bc]" name="loginPageTitleTest" duration-ms="8" started-at="2021-08-27T22:28:58Z" finished-at="2021-08-27T22:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.sauce.qa.testcases.LoginPageTest@3108bc]" name="loginTest" duration-ms="3343" started-at="2021-08-27T22:28:58Z" finished-at="2021-08-27T22:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.LoginPageTest@3108bc]" name="tearDown" is-config="true" duration-ms="676" started-at="2021-08-27T22:29:02Z" finished-at="2021-08-27T22:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauce.qa.testcases.LoginPageTest -->
+      <class name="com.sauce.qa.testcases.ProductListPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="setUp" is-config="true" duration-ms="1795" started-at="2021-08-27T22:29:02Z" finished-at="2021-08-27T22:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductListTitleTest()[pri:1, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="verifyProductListTitleTest" duration-ms="6" started-at="2021-08-27T22:29:04Z" finished-at="2021-08-27T22:29:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductListTitleTest -->
-        <test-method status="PASS" signature="verifyFilterOptionsTest()[pri:2, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="verifyFilterOptionsTest" duration-ms="145" started-at="2021-08-27T18:47:48Z" finished-at="2021-08-27T18:47:48Z">
+        <test-method status="PASS" signature="verifyFilterOptionsTest()[pri:2, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="verifyFilterOptionsTest" duration-ms="164" started-at="2021-08-27T22:29:04Z" finished-at="2021-08-27T22:29:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFilterOptionsTest -->
-        <test-method status="PASS" signature="validateSortingTest()[pri:3, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="validateSortingTest" duration-ms="231" started-at="2021-08-27T18:47:48Z" finished-at="2021-08-27T18:47:48Z">
+        <test-method status="PASS" signature="validateSortingTest()[pri:3, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="validateSortingTest" duration-ms="317" started-at="2021-08-27T22:29:04Z" finished-at="2021-08-27T22:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSortingTest -->
-        <test-method status="PASS" signature="addToCartTest()[pri:4, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="addToCartTest" duration-ms="259" started-at="2021-08-27T18:47:48Z" finished-at="2021-08-27T18:47:48Z">
+        <test-method status="PASS" signature="addToCartTest()[pri:4, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="addToCartTest" duration-ms="346" started-at="2021-08-27T22:29:05Z" finished-at="2021-08-27T22:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method status="PASS" signature="removeFromCart()[pri:5, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="removeFromCart" duration-ms="2127" started-at="2021-08-27T18:47:48Z" finished-at="2021-08-27T18:47:51Z">
+        <test-method status="PASS" signature="removeFromCart()[pri:5, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="removeFromCart" duration-ms="2123" started-at="2021-08-27T22:29:05Z" finished-at="2021-08-27T22:29:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFromCart -->
-        <test-method status="PASS" signature="validateMenuOptionsTest()[pri:6, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="validateMenuOptionsTest" duration-ms="10705" started-at="2021-08-27T18:47:51Z" finished-at="2021-08-27T18:48:01Z">
+        <test-method status="PASS" signature="validateMenuOptionsTest()[pri:6, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="validateMenuOptionsTest" duration-ms="9877" started-at="2021-08-27T22:29:07Z" finished-at="2021-08-27T22:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMenuOptionsTest -->
-        <test-method status="PASS" signature="selectAProduct()[pri:7, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="selectAProduct" duration-ms="5116" started-at="2021-08-27T18:48:01Z" finished-at="2021-08-27T18:48:06Z">
+        <test-method status="PASS" signature="selectAProduct()[pri:7, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="selectAProduct" duration-ms="5130" started-at="2021-08-27T22:29:17Z" finished-at="2021-08-27T22:29:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectAProduct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.ProductListPageTest@1ddf84b8]" name="tearDown" is-config="true" duration-ms="84" started-at="2021-08-27T18:48:06Z" finished-at="2021-08-27T18:48:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.ProductListPageTest@370736d9]" name="tearDown" is-config="true" duration-ms="3557" started-at="2021-08-27T22:29:22Z" finished-at="2021-08-27T22:29:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sauce.qa.testcases.ProductListPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Sauce Demo App Test Automation Suite -->
+    <test name="Sauce Demo App Test Automation Suite1" duration-ms="34021" started-at="2021-08-27T18:29:26Z" finished-at="2021-08-27T18:30:00Z">
+      <class name="com.sauce.qa.testcases.ProductDescriptionPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.ProductDescriptionPageTest@887af79]" name="setUp" is-config="true" duration-ms="3598" started-at="2021-08-27T22:29:26Z" finished-at="2021-08-27T22:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateImageDisplayedTest()[pri:1, instance:com.sauce.qa.testcases.ProductDescriptionPageTest@887af79]" name="validateImageDisplayedTest" duration-ms="51" started-at="2021-08-27T22:29:29Z" finished-at="2021-08-27T22:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImageDisplayedTest -->
+        <test-method status="PASS" signature="validateProductTitleTest()[pri:2, instance:com.sauce.qa.testcases.ProductDescriptionPageTest@887af79]" name="validateProductTitleTest" duration-ms="64" started-at="2021-08-27T22:29:29Z" finished-at="2021-08-27T22:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductTitleTest -->
+        <test-method status="PASS" signature="validateAddToCartTest()[pri:3, instance:com.sauce.qa.testcases.ProductDescriptionPageTest@887af79]" name="validateAddToCartTest" duration-ms="10173" started-at="2021-08-27T22:29:29Z" finished-at="2021-08-27T22:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartTest -->
+        <test-method status="PASS" signature="removeFromCartTest()[pri:4, instance:com.sauce.qa.testcases.ProductDescriptionPageTest@887af79]" name="removeFromCartTest" duration-ms="10157" started-at="2021-08-27T22:29:40Z" finished-at="2021-08-27T22:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCartTest -->
+        <test-method status="PASS" signature="validateBackToProductsTest()[pri:5, instance:com.sauce.qa.testcases.ProductDescriptionPageTest@887af79]" name="validateBackToProductsTest" duration-ms="225" started-at="2021-08-27T22:29:50Z" finished-at="2021-08-27T22:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBackToProductsTest -->
+        <test-method status="PASS" signature="validateYourCartTest()[pri:6, instance:com.sauce.qa.testcases.ProductDescriptionPageTest@887af79]" name="validateYourCartTest" duration-ms="121" started-at="2021-08-27T22:29:50Z" finished-at="2021-08-27T22:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.ProductDescriptionPageTest@887af79]" name="tearDown" is-config="true" duration-ms="9621" started-at="2021-08-27T22:29:50Z" finished-at="2021-08-27T22:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauce.qa.testcases.ProductDescriptionPageTest -->
+    </test> <!-- Sauce Demo App Test Automation Suite1 -->
+    <test name="Sauce Demo App Test Automation Suite2" duration-ms="8294" started-at="2021-08-27T18:30:00Z" finished-at="2021-08-27T18:30:08Z">
+      <class name="com.sauce.qa.testcases.YourCartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.YourCartPageTest@5ae63ade]" name="setUp" is-config="true" duration-ms="4073" started-at="2021-08-27T22:30:00Z" finished-at="2021-08-27T22:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTitleDisplayedTest()[pri:1, instance:com.sauce.qa.testcases.YourCartPageTest@5ae63ade]" name="validateTitleDisplayedTest" duration-ms="33" started-at="2021-08-27T22:30:04Z" finished-at="2021-08-27T22:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleDisplayedTest -->
+        <test-method status="PASS" signature="validateSizeAndItemsInCartTest()[pri:2, instance:com.sauce.qa.testcases.YourCartPageTest@5ae63ade]" name="validateSizeAndItemsInCartTest" duration-ms="68" started-at="2021-08-27T22:30:04Z" finished-at="2021-08-27T22:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSizeAndItemsInCartTest -->
+        <test-method status="PASS" signature="validateRemoveProductTest()[pri:3, instance:com.sauce.qa.testcases.YourCartPageTest@5ae63ade]" name="validateRemoveProductTest" duration-ms="165" started-at="2021-08-27T22:30:04Z" finished-at="2021-08-27T22:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRemoveProductTest -->
+        <test-method status="PASS" signature="validateReturnShoppingTest()[pri:4, instance:com.sauce.qa.testcases.YourCartPageTest@5ae63ade]" name="validateReturnShoppingTest" duration-ms="119" started-at="2021-08-27T22:30:04Z" finished-at="2021-08-27T22:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReturnShoppingTest -->
+        <test-method status="PASS" signature="validateCheckOutTest()[pri:5, instance:com.sauce.qa.testcases.YourCartPageTest@5ae63ade]" name="validateCheckOutTest" duration-ms="3130" started-at="2021-08-27T22:30:04Z" finished-at="2021-08-27T22:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.YourCartPageTest@5ae63ade]" name="tearDown" is-config="true" duration-ms="698" started-at="2021-08-27T22:30:07Z" finished-at="2021-08-27T22:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauce.qa.testcases.YourCartPageTest -->
+    </test> <!-- Sauce Demo App Test Automation Suite2 -->
+    <test name="Sauce Demo App Test Automation Suite3" duration-ms="4645" started-at="2021-08-27T18:30:08Z" finished-at="2021-08-27T18:30:13Z">
+      <class name="com.sauce.qa.testcases.CheckOutInfoPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.CheckOutInfoPageTest@1f36e637]" name="setUp" is-config="true" duration-ms="3579" started-at="2021-08-27T22:30:08Z" finished-at="2021-08-27T22:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTitleTest()[pri:1, instance:com.sauce.qa.testcases.CheckOutInfoPageTest@1f36e637]" name="validateTitleTest" duration-ms="15" started-at="2021-08-27T22:30:12Z" finished-at="2021-08-27T22:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method status="PASS" signature="validateContinueShoppingTest()[pri:2, instance:com.sauce.qa.testcases.CheckOutInfoPageTest@1f36e637]" name="validateContinueShoppingTest" duration-ms="82" started-at="2021-08-27T22:30:12Z" finished-at="2021-08-27T22:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueShoppingTest -->
+        <test-method status="PASS" signature="validateCheckoutTest()[pri:3, instance:com.sauce.qa.testcases.CheckOutInfoPageTest@1f36e637]" name="validateCheckoutTest" duration-ms="304" started-at="2021-08-27T22:30:12Z" finished-at="2021-08-27T22:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.CheckOutInfoPageTest@1f36e637]" name="tearDown" is-config="true" duration-ms="664" started-at="2021-08-27T22:30:12Z" finished-at="2021-08-27T22:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauce.qa.testcases.CheckOutInfoPageTest -->
+    </test> <!-- Sauce Demo App Test Automation Suite3 -->
+    <test name="Sauce Demo App Test Automation Suite4" duration-ms="3676" started-at="2021-08-27T18:30:13Z" finished-at="2021-08-27T18:30:16Z">
+      <class name="com.sauce.qa.testcases.CheckOutOverviewPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.CheckOutOverviewPageTest@3cef309d]" name="setUp" is-config="true" duration-ms="2593" started-at="2021-08-27T22:30:13Z" finished-at="2021-08-27T22:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTotalCostTest()[pri:1, instance:com.sauce.qa.testcases.CheckOutOverviewPageTest@3cef309d]" name="validateTotalCostTest" duration-ms="93" started-at="2021-08-27T22:30:15Z" finished-at="2021-08-27T22:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalCostTest -->
+        <test-method status="PASS" signature="validateFinalCostTest()[pri:2, instance:com.sauce.qa.testcases.CheckOutOverviewPageTest@3cef309d]" name="validateFinalCostTest" duration-ms="102" started-at="2021-08-27T22:30:15Z" finished-at="2021-08-27T22:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFinalCostTest -->
+        <test-method status="PASS" signature="validateCompletePaymentTest()[pri:3, instance:com.sauce.qa.testcases.CheckOutOverviewPageTest@3cef309d]" name="validateCompletePaymentTest" duration-ms="102" started-at="2021-08-27T22:30:16Z" finished-at="2021-08-27T22:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCompletePaymentTest -->
+        <test-method status="PASS" signature="validateCancelTest()[pri:4, instance:com.sauce.qa.testcases.CheckOutOverviewPageTest@3cef309d]" name="validateCancelTest" duration-ms="126" started-at="2021-08-27T22:30:16Z" finished-at="2021-08-27T22:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCancelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.CheckOutOverviewPageTest@3cef309d]" name="tearDown" is-config="true" duration-ms="659" started-at="2021-08-27T22:30:16Z" finished-at="2021-08-27T22:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauce.qa.testcases.CheckOutOverviewPageTest -->
+    </test> <!-- Sauce Demo App Test Automation Suite4 -->
+  </suite> <!-- Sauce Demo App Test Automation Suite -->
 </testng-results>
