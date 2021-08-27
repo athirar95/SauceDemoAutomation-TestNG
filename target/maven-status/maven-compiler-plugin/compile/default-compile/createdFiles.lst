@@ -1,3 +1,4 @@
+com\sauce\qa\pages\CheckOutOverviewPage.class
 com\sauce\qa\pages\ProductListPage.class
 com\sauce\qa\util\TestUtil.class
 com\sauce\qa\pages\YourCartPage.class
